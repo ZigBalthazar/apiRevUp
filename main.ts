@@ -8,7 +8,7 @@ interface cacheOptions {
     noStore?: boolean;
 }
 
-export default function rushAPI(options: cacheOptions) {
+export default function apiRevUp(options: cacheOptions) {
     return function (req: Request, res: Response, next: NextFunction) {
       
       const maxAge = `max-age=${options.maxAge}`;
