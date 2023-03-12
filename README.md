@@ -6,7 +6,7 @@ a simple cacheMiddleware with simple strategy make your API faster.
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install apiRevUp.
+Use the package manager [npm](https://www.npmjs.com/package/apirevup) to install apiRevUp.
 
 ```bash
 npm i apirevup
