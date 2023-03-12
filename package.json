@@ -1,0 +1,19 @@
+{
+  "name": "rushapi",
+  "version": "1.0.0",
+  "description": "a simple cacheMiddleware with simple strategy make your API faster.",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "caching",
+    "API",
+    "express"
+  ],
+  "author": "Keyhan Alizadeh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
