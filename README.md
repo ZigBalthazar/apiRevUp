@@ -2,7 +2,7 @@
 
 a simple cacheMiddleware with simple strategy make your API faster.
 
-<img alt="npm" src="https://img.shields.io/npm/v/apiRevUp">
+
 
 ## Installation
 
