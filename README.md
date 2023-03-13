@@ -21,13 +21,13 @@ import apiRevUp from "apirevup";
 const app = express();
 const port = 3000;
 
-// Add the rushAPI middleware to the app
+// Add the apiRevUp middleware to the app
 app.use(apiRevUp({
 maxAge: 300000 // Set the max age of the cache to 5 minutes (300,000 ms)
 }); 
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hello rushAPI!');
+  res.send('Hello apiRevUp!');
 });
 
 app.listen(port, () => {
